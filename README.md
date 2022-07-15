@@ -20,7 +20,7 @@ In our best model we are looking for the model that produces the highest recall 
 
 ![Recall Scores of Our Best Model](images/recall_score.png)
 
-As you can see in the graph above, our best model has cross-validated recall score of .80. When we ran our best model using unseen testing data, it provided a recall score of .75. This means that our model accurately predicted 75% of all true positives and false negatives. 
+As you can see in the graph above, our best model has cross-validated recall score of .80. When we ran our best model using unseen testing data, it provided a recall score of .75. This means that our model accurately predicted 75% of all true positives and false negatives from the unseen data.
 
 ![High Impact Features](images/feature_import.png)
 
