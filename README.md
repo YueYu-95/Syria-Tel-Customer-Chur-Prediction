@@ -2,7 +2,7 @@
 
 We are a data science consulting company named M&Y Consulting Services, LLC looking to provide predictive and actionable insights regarding likely churn candidates at the telecommunications company SyriaTel. We hope to create a complex model that can predict likely churn candidates as well as the features that impact churn the most. 
 
-Our presentation, where we analyze out dataset can be found at 
+Our presentation, where we analyze out dataset can be found at: ["A Study on Churn and Retention Rates"](Phase_3_Presentation.pdf)
 
 # Business Problem 
 
@@ -16,11 +16,18 @@ In total, we reviewed 3,333 data points from this SyriaTel data set. Our visuali
 
 # Classification Modeling Results 
 
+In our best model we are looking for the model that produces the highest recall score. We are focused on the recall score of our model since we are aiming to identify all likely churn candidates. We are placing less importance on finding the true negatives because we are primarily interested in spotting the real churners (true positives) as often as possible.
+
+![Recall Scores of Our Best Model](images/recall_score.png)
+
+
+![High Impact Features](images/feature_import.png)
 
 
 
 # Conclusion 
-Our best model had a cross-validated recall score of 
-Our best model provided a recall score of .75 when ran against our unseen test data. 
+Our best model had a cross-validated recall score of .80, and a recall score of .75 when the model was run against our unseen test data.
 
 We found the top three features that influence the customer churn most are: International Plan Rate, Number of Service Calls, and Total Minutes.
+
+# Repository Contents
